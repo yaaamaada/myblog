@@ -1,0 +1,6 @@
+[book]
+authors = ["Ayuto Yamada"]
+language = "en"
+multilingual = false
+src = "src"
+title = "mybook"
