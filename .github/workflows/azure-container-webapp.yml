@@ -44,6 +44,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set up mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+
+      - name: Build book
+        run: mdbook build
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226 # v3.0.0
 
