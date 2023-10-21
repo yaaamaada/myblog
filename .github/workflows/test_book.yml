@@ -1,0 +1,23 @@
+name: Test updated books
+on:
+  push:
+    branches:
+      - book
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup mdBook
+      - uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+
+      - name: Run tests
+        run: mdbook test
