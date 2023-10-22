@@ -1,6 +1,6 @@
 [book]
 authors = ["Ayuto Yamada"]
-language = "en"
+language = "jp"
 multilingual = false
 src = "src"
-title = "mybook"
+title = "私のブログ"
