@@ -1,0 +1,2 @@
+# mdBookで静的コンテンツを生成してAzureにデプロイするまでの流れを，Github Actionsで自動化する
+日本語の文章
