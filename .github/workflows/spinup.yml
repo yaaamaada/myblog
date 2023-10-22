@@ -1,7 +1,7 @@
 # Copyright (c) GitHub, Inc.
 # Copyright (c) yaaamaada.
 
-name: Configure Azure environment
+name: Spin up Azure environment
 
 on:
   pull_request:
