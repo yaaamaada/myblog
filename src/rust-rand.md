@@ -25,5 +25,6 @@
 
 # 参考資料
 * [random - What is the PRNG algorithm used in Rust's `rand` crate? - Stack Overflow](https://stackoverflow.com/questions/70392284/what-is-the-prng-algorithm-used-in-rusts-rand-crate)
-* [Introduction - The Rust Rand Book](https://rust-random.github.io/book/intro.html)
-    * [Our RNGs - The Rust Rand Book](https://rust-random.github.io/book/guide-rngs.html)
+* [rand - Rust](https://docs.rs/rand/latest/rand/)
+    * [Introduction - The Rust Rand Book](https://rust-random.github.io/book/intro.html)
+        * [Our RNGs - The Rust Rand Book](https://rust-random.github.io/book/guide-rngs.html)
